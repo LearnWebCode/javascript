@@ -76,6 +76,12 @@ body, .tooltip
 .input-dark:-ms-input-placeholder {color: #888;}
 .input-dark:-moz-placeholder {color: #888;}
 
+@media (min-width: 768px) {
+  .input-dark {
+   width: auto;
+  }
+}
+
 .display-3 {
   font-size: 4.35rem;
 }
